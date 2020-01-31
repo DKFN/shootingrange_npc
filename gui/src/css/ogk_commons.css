@@ -1,0 +1,96 @@
+/**
+ *  This file contains the shared styles between gamemodes
+ */
+
+/* Custom Fonts */
+
+@font-face {
+    font-family: regular;
+    src: url(http://asset/shootingrange_npc/gui/build/fonts/gunplay.ttf);
+}
+
+@font-face {
+    font-family: title;
+    src: url(http://asset/shootingrange_npc/gui/build/fonts/take_cover.ttf);
+}
+
+html, pre {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: title;
+    font-size: 62px;
+    color: darkred;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    margin: -8px;
+}
+
+h2 {
+    margin-top: -8px;
+    margin-bottom: -4px;
+}
+
+body {
+    font-family: regular, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.button, .card-header, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .menu-label, .message-header, .tabs, .tag, .title{
+    font-family: pxTitle, cursive;
+    font-weight: 100;
+    color: orange;
+}
+
+.table th, .table {
+    font-family: smb;
+    font-weight: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.ogk-shadowbox {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px;
+}
+
+#boxContainer {
+    display: flex;
+    text-align: center;
+}
+
+#selectionContainer {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.weaponItem {
+    margin: 5px;
+    border: 2px solid orange;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: orange;
+    opacity: 0.8;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.weaponItem:hover {
+    opacity: 1;
+    background-color: black;
+    cursor: pointer;
+}
+.contained-image {
+    border: 1px solid limegreen;
+}
